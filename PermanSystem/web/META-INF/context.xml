@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Context reloadable = "true">
+    <Resource
+        name="jdbc/sampleDS"
+        type="javax.sql.DataSource"
+        maxTotal="20"
+        maxIdle="20"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        url="jdbc:sqlserver://localhost:1433;DatabaseName=chenhuiMIS09"
+        username="sa"
+        password="Kate10081720"
+        maxWaitMillis="5000"/>
+</Context>
